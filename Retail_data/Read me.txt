@@ -1,0 +1,32 @@
+Retail Shop Data Insights
+
+    This analysis uncovers insights about profit trends, sales performance, discounts, and stock status
+    to guide better business decisions. It leverages data to identify key opportunities
+    for growth and optimization in retail operations
+
+
+ 1.Profit Analysis
+     Top Cities: Identifies the 5 cities with the highest profit margins.
+     Category Profit: Shows total profit for each product category.
+     Best Region: Highlights the region with the highest average sale price.
+     Yearly Revenue: Tracks yearly revenue trends.
+     Top Categories: Finds the category with the highest total profit.
+     Segment Orders: Identifies the 3 segments with the highest order quantities.
+     Discount by Region: Calculates the average discount percentage per region.
+     Total Discounts: Summarizes total discounts given per category
+
+
+ 2.Sales and Discounts
+     Sales Comparison: Compares sales between the current and previous year.
+     Top Products: Lists products with the best profit margins.
+     Revenue & Profit Rank: Ranks products by revenue and profit margin.
+     Discount Ranges: Groups products by low, medium, and high discounts.
+     Stock Status: Flags overstocked, understocked, and normal-stocked products.
+     Low-Profit Cities: Shows cities earning the lowest profits.
+     Regional Sales: Highlights total sales and orders by region.
+     Business Margin: Categorizes segments as "Good" or "Bad" business.
+     Top Sales Day: Identifies the day with the highest total sales.
+
+ Tools Used:
+     Python (Stream lit, Pandas, PyMySQL)
+     SQL for querying the Retail Shop database
