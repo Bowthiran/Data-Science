@@ -1,0 +1,41 @@
+India's Agriculture Understanding with EDA
+
+    This project explores agricultural production trends in India using Exploratory Data Analysis (EDA) and SQL queries. It covers key     crops like rice, wheat, oilseeds, sugarcane, and more, visualizing insights through Power BI and Python.
+
+
+EDA Topics and Chart Types:
+ 
+   • Top 7 Rice Production States (Bar Plot)
+   • Top 5 Wheat Producing States (Bar Chart & Pie Chart for % Share)
+   • Oilseed Production by Top 5 States (Bar Chart)
+   • Top 7 Sunflower Production States (Bar Chart)
+   • India’s Sugarcane Production (Last 50 Years) (Line Plot)
+   • Rice Production vs. Wheat Production (Last 50 Years) (Line Plot)
+   • Rice Production by West Bengal Districts (Bar Chart)
+   • Top 10 Wheat Production Years from UP (Bar Chart)
+   • Millet Production (Last 50 Years) (Line Plot)
+   • Sorghum Production (Kharif & Rabi) by Region (Bar Chart)
+   • Top 7 States for Groundnut Production (Bar Chart)
+   • Soybean Production by Top 5 States & Yield Efficiency (Bar Chart)
+   • Oilseed Production in Major States (Bar Chart)
+   • Impact of Area Cultivated on Production (Rice, Wheat, Maize) (Bar Chart)
+   • Rice vs. Wheat Yield Across States (Bar Chart)
+
+SQL Queries:
+
+   • Year-wise Trend of Rice Production Across States (Top 3)
+   • Top 5 Districts by Wheat Yield Increase Over the Last 5 Years
+   • States with the Highest Growth in Oilseed Production (5-Year Growth Rate)
+   • District-wise Correlation Between Area and Production for Major Crops (Rice, Wheat, and Maize)
+   • Yearly Production Growth of Cotton in Top 5 Cotton Producing States
+   • Districts with the Highest Groundnut Production in 2020
+   • Annual Average Maize Yield Across All States
+   • Total Area Cultivated for Oilseeds in Each State
+   • Districts with the Highest Rice Yield
+   • Compare the Production of Wheat and Rice for the Top 5 States Over 10 Years
+
+Tools Used:
+   • Power BI for data visualization
+   • Python (Pandas, PyMySQL, SQLAlchemy)
+   • SQL for querying and data processing
+
