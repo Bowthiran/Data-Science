@@ -1,15 +1,15 @@
-Hi 👋 My name is Bowthiran
+Hi 👋 This is Bowthiran
 ========================  
 
-Data & Software Engineer
+Data Scientist
 ------------------------  
 
-I have completed Web Development Course at Qtree Technology in Coimbatore.I have completed Intern at PSYLIQ as a Data Scientist and also highly skilled in real time projects like Student Management System, Travello Colorlib, Todo List, Guess The Number and Ecommerce Website. with using python, Html, Css, Java Script, Django, Flask, PostgreSQL, MongoDB. I am currently learning about Software Development and I ready to learn New Technologies.  
+I had completed Bsc.Eclectronics and communication system. have hands on experience in python,Sql,Pandas for problem solving. I also hold basic & intermediate Certificates in HackerRank. I am an adoptable leaner and good listener. I am egarly apply my skills & grow in this role.  
 
 * 🌍  I'm based in Coimbatore, Tamil Nadu
 * ✉️  You can contact me at [mbowthiran@gmail.com](mailto:mbowthiran@gmail.com)
-* 🧠  I'm learning Software development
-* 🤝  I'm open to collaborating on Software and web Development
+* 🧠  I'm learning Data Scientist from guvi
+* 🤝  I'm open to collaborating on Data rellated jobs
 
 ### Skills  
 
