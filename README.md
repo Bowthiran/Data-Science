@@ -17,36 +17,37 @@ I have completed a B.Sc. in Electronics and Communication Systems. I have hands-
 
 <p align="left">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" height="36" alt="Python" />
   </a>
   <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pandas-colored.svg" width="36" height="36" alt="Pandas" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="36" height="36" alt="Pandas" />
   </a>
   <a href="https://numpy.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/numpy-colored.svg" width="36" height="36" alt="NumPy" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width="36" height="36" alt="NumPy" />
   </a>
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/scikitlearn-colored.svg" width="36" height="36" alt="Scikit-Learn" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="36" height="36" alt="Scikit-Learn" />
   </a>
   <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="36" height="36" alt="TensorFlow" />
+    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="36" height="36" alt="TensorFlow" />
   </a>
   <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" width="36" height="36" alt="PyTorch" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" width="36" height="36" alt="PyTorch" />
   </a>
   <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/powerbi-colored.svg" width="36" height="36" alt="Power BI" />
+    <img src="https://seeklogo.com/images/P/power-bi-logo-82B56608E0-seeklogo.com.png" width="36" height="36" alt="Power BI" />
   </a>
   <a href="https://www.tableau.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tableau-colored.svg" width="36" height="36" alt="Tableau" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" width="36" height="36" alt="Tableau" />
   </a>
   <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" />
+    <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" width="36" height="36" alt="PostgreSQL" />
   </a>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" />
+    <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" width="36" height="36" alt="MongoDB" />
   </a>
 </p>
+
 
 ### Socials  
 
