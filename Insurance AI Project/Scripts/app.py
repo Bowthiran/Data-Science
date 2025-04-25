@@ -252,21 +252,3 @@ if st.session_state.selected_model and model:
             input_array = np.array(input_data)
             prediction = model.predict(input_array)[0]
             st.markdown(f"### Prediction : **{prediction}**")
-
-
-
-# ⚠️ Warning
-# 🟢 Low Risk
-# 🟡 Medium Risk
-# 🔴 High Risk
-# 🧠 Decision
-
-        # prediction_labels = {
-        #     "ckd": "Chronic Kidney Disease ⚠️",
-        #     "notckd": "No Kidney Disease 😊",
-        #     1 : "Liver Disease Detected ⚠️",
-        #     0 : "No Liver Disease 😊",
-        #     2 : "Parkinson's Disease ⚠️",
-        #     3 : "No Parkinson's Disease 😊"}
-
-        # result = prediction_labels.get(prediction)
