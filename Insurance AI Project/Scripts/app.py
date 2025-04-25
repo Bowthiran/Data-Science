@@ -95,15 +95,30 @@ def get_best_answer(user_question):
 
 if "selected_model" not in st.session_state:
     st.session_state.selected_model = None
-    st.markdown("## Risk Classification")
+    st.markdown("# 🤖 Insurance AI Hub")
+    st.markdown("### 🔐 Risk Classification")
     st.write("Classifies insurance applicants based on potential risk levels using historical and behavioral data. Helps insurers make smarter underwriting decisions and reduce potential losses.")
 
-    st.markdown("## Claim Amount")
+    st.markdown("### 💵 Claim Amount")
     st.write("Estimates the expected claim amount from a policyholder based on input features like age, damage type, and history. Useful for cost planning and fraud prevention in insurance claims.")
 
-    st.markdown("## Frud Detection")
+    st.markdown("### 👥 Customer Segmentation")
+    st.write("Groups customers into meaningful segments based on demographics, policy behavior, and engagement. Supports targeted marketing, policy customization, and service optimization.")
+
+    st.markdown("### 🚨 Frud Detection")
     st.write("Identifies suspicious or potentially fraudulent claims by analyzing patterns and anomalies in the data. Enhances the integrity of insurance processes and minimizes financial loss.")
 
+    st.markdown("### 🌐 Insurance Translate")
+    st.write("Translates insurance related documents or messages across different languages. Improves communication with diverse customer bases and enhances accessibility.")
+
+    st.markdown("### 💭 Sentiment Analysis")
+    st.write("Analyzes customer feedback, emails, or reviews to detect sentiment. Helps in measuring customer satisfaction, resolving issues faster, and improving service quality.")
+
+    st.markdown("### 📝 Text Summarization")
+    st.write("Automatically summarizes long insurance documents, policies, or claim descriptions. Saves time and improves document readability for agents and customers.")
+
+    st.markdown("### 🌀 Chatbot Assistant")
+    st.write("Provides instant responses to insurance related queries using natural language understanding. Enhances customer experience with 24/7 support and reduces human workload.")
 
 
 # Sidebar Buttons for Model Selection
