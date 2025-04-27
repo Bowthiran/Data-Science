@@ -16,8 +16,6 @@ from sentence_transformers import SentenceTransformer
 st.set_page_config(page_title="Insurance AI", page_icon="🎗️")
 st.sidebar.success("Select a model to explore")
 
-st.markdown("# 🤖 ML Model Selector")
-
 @st.cache_resource
 def load_model(model_path):
     model = joblib.load(model_path)
