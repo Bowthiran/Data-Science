@@ -80,7 +80,7 @@ def summarize_text(text):
 
 
 # Chatbot Model
-chatbot_model = joblib.load("C:/Users/91801/Desktop/Insurance AI Project/models/chatbot_model.pkl")
+chatbot_model = joblib.load("Insurance AI Project/models/chatbot_model.pkl")
 qa_pairs = chatbot_model["qa_pairs"]
 question_embeddings = chatbot_model["question_embeddings"]
 sentence_model = SentenceTransformer(chatbot_model["model_name"])
@@ -122,21 +122,21 @@ if "selected_model" not in st.session_state:
 
 # Sidebar Buttons for Model Selection
 if st.sidebar.button("⚠️ Risk Classification", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/risk_classification.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/risk_classification.pkl"
 if st.sidebar.button("💰 Claim Amount", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/claim_amount.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/claim_amount.pkl"
 if st.sidebar.button("🧩 Customer Segment", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/customer_segmentation.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/customer_segmentation.pkl"
 if st.sidebar.button("🕵️‍♂️ Fraud Detection", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/fraud_detection.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/fraud_detection.pkl"
 if st.sidebar.button("🌍 Insurance Translate", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/insurance_translate.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/insurance_translate.pkl"
 if st.sidebar.button("❤️ Sentiment Analysis", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/sentiment_analysis.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/sentiment_analysis.pkl"
 if st.sidebar.button("📝 Text Summarization", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/text_summarization.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/text_summarization.pkl"
 if st.sidebar.button("🤖 Chatbot", use_container_width=True):
-    st.session_state.selected_model = "C:/Users/91801/Desktop/Insurance AI Project/models/chatbot_model.pkl"
+    st.session_state.selected_model = "Insurance AI Project/models/chatbot_model.pkl"
 
 
 # Load selected model
@@ -146,7 +146,7 @@ model = load_model(st.session_state.selected_model) if st.session_state.selected
 input_data = [] 
 if st.session_state.selected_model and model:
     # st.markdown(f"## Selected Model : `{st.session_state.selected_model}`")
-    if st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/risk_classification.pkl":
+    if st.session_state.selected_model == "Insurance AI Project/models/risk_classification.pkl":
         st.title("🧠 Risk Classification")
         feature_1 = abs(st.number_input("Customer Age"))
         feature_2 = abs(st.number_input("Annual Income"))
@@ -161,7 +161,7 @@ if st.session_state.selected_model and model:
         feature_11 = abs(st.number_input("Property policy"))
         input_data = [[feature_1, feature_2, feature_3, feature_4, feature_5, feature_6, feature_7, feature_8, feature_9, feature_10, feature_11]]
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/claim_amount.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/claim_amount.pkl":
         st.title("💵 Claim Amount")
         feature_1 = abs(st.number_input("Customer Age"))
         feature_2 = abs(st.number_input("Annual Income"))
@@ -177,7 +177,7 @@ if st.session_state.selected_model and model:
         feature_12 = abs(st.number_input("Property policy"))
         input_data = [[feature_1, feature_2, feature_3, feature_4, feature_5, feature_6, feature_7, feature_8, feature_9, feature_10, feature_11, feature_12]]
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/customer_segmentation.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/customer_segmentation.pkl":
         st.title("👥 Customer Semgmentation")
         feature_1 = abs(st.number_input("Customer Age"))
         feature_2 = abs(st.number_input("Location"))
@@ -197,7 +197,7 @@ if st.session_state.selected_model and model:
         feature_16 = abs(st.number_input("Occupation Teacher"))
         input_data = [[feature_1, feature_2, feature_3, feature_4, feature_5, feature_6, feature_7, feature_8, feature_9, feature_10, feature_11, feature_12, feature_13, feature_14, feature_15, feature_16]]
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/fraud_detection.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/fraud_detection.pkl":
         st.title("🚨 Fraud Detection")
         feature_1 = abs(st.number_input("Claim Amount"))
         feature_2 = abs(st.number_input("Suspicious Flag"))
@@ -205,7 +205,7 @@ if st.session_state.selected_model and model:
         feature_4 = abs(st.number_input("Claim Vehicle"))
         input_data = [[feature_1, feature_2, feature_3, feature_4]]
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/insurance_translate.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/insurance_translate.pkl":
         st.title("🌐 Multilingual File Translator")
         uploaded_file = st.file_uploader("📁 Upload your file", type=["txt", "docx", "pdf"])
         src_lang = st.selectbox("🔤 From Language", ["en", "ta", "hi", "fr", "de", "es"])
@@ -224,7 +224,7 @@ if st.session_state.selected_model and model:
             except Exception as e:
                 st.error(f"❌ Error: {e}")
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/sentiment_analysis.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/sentiment_analysis.pkl":
         st.title("💭 Sentiment Analysis")
         user_input = st.text_area("Enter text to analyze", height=200)
 
@@ -238,7 +238,7 @@ if st.session_state.selected_model and model:
             else:
                 st.info("😐 Neutral sentiment detected.")
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/text_summarization.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/text_summarization.pkl":
         st.title("📝 Text Summarization")
         user_input = st.text_area("Enter the text to summarize", height=250)
 
@@ -251,7 +251,7 @@ if st.session_state.selected_model and model:
             else:
                 st.warning("⚠️ Please enter some text to summarize.")
 
-    elif st.session_state.selected_model == "C:/Users/91801/Desktop/Insurance AI Project/models/chatbot_model.pkl":
+    elif st.session_state.selected_model == "Insurance AI Project/models/chatbot_model.pkl":
         st.title("🌀 Insurance ChatBot")
         query = st.text_input("Ask your question:")
 
