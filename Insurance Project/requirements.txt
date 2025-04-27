@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+joblib
+imblearn
+pdfplumber
+python-docx
+googletrans==4.0.0-rc1
+textblob
+tensorflow
+transformers
+sentence-transformers
