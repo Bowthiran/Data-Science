@@ -72,7 +72,6 @@ def sentiment_analysis(raw_text):
 
 # Text Summazation Model
 def summarize_text(text):
-    # device = 0 if torch.cuda.is_available() else -1
     summarizer = pipeline("summarization", model="t5-small")
     summary = summarizer(text, max_length=100, min_length=25, do_sample=False)
     return summary[0]["summary_text"]
@@ -264,21 +263,3 @@ if st.session_state.selected_model and model:
             input_array = np.array(input_data)
             prediction = model.predict(input_array)[0]
             st.markdown(f"### Prediction : **{prediction}**")
-
-
-
-# ⚠️ Warning
-# 🟢 Low Risk
-# 🟡 Medium Risk
-# 🔴 High Risk
-# 🧠 Decision
-
-        # prediction_labels = {
-        #     "ckd": "Chronic Kidney Disease ⚠️",
-        #     "notckd": "No Kidney Disease 😊",
-        #     1 : "Liver Disease Detected ⚠️",
-        #     0 : "No Liver Disease 😊",
-        #     2 : "Parkinson's Disease ⚠️",
-        #     3 : "No Parkinson's Disease 😊"}
-
-        # result = prediction_labels.get(prediction)
