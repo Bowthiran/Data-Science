@@ -4,7 +4,7 @@ Hi 👋 This is Bowthiran
 Data Scientist
 ------------------------  
 
-I have completed a B.Sc in Electronics and Communication Systems. I have hands-on experience in Python, SQL, and Pandas for problem solving. I also hold basic and intermediate certificates on HackerRank. I am an adaptable learner and a good listener. I am eager to apply my skills and grow in this role.
+I have completed a B.Sc in Electronics and Communication Systems. I have hands-on experience in Python, SQL, and Pandas for problem solving. I’ve also earned Basic and Intermediate SQL certificates from HackerRank. I am an adaptable learner and continuous improvement. I am eager to apply my skills and grow in a data-driven role.
 
 * 🌍  Based in Coimbatore, Tamil Nadu
 * ✉️  You can contact me at [mbowthiran@gmail.com](mailto:mbowthiran@gmail.com)
